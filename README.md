@@ -10,3 +10,5 @@
 - データベース: postgres
 
 を使用してください。初回のログインさえ済めば後はロール作るなり`CREATE DATABASE`なりいい感じにしていってください。
+
+docker-compose.ymlと同じディレクトリで`docker-compose down`で終了します。
