@@ -9,9 +9,13 @@ services:
         env_file:
             - ./docker.env
         volumes:
-            - ./data:/var/lib/postgresql/data
+            - postgresql-data:/var/lib/postgresql/data
         ports:
             - "5432:5432"
 
 networks:
     external_network:
+
+
+volumes:
+    postgresql-data:
